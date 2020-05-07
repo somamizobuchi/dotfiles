@@ -25,7 +25,6 @@ installVundel (){
 	if [ $resp == "y" ] || [ $resp =="Y" ] 
 	then 
 		git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-		done
 		echo "$PROMPT install complete"
 	else
 		echo "$PROMPT install failed"
