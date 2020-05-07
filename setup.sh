@@ -18,7 +18,7 @@ link (){
 	fi 
 }
 
-installVundel (){
+installVundle (){
 	echo "$PROMPT would like to install Vundle"
 	echo "$PROMPT Proceed? "
 	read resp
