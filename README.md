@@ -5,11 +5,11 @@ git clone https://github.com/somamizobuchi/dotfiles.git ~/.dotfiles
 ```
 To create symlinks in the root:
 ```
-setup.sh
+./setup.sh
 ```
-##Zsh
+## Zsh
 Some themes
 vim mode 
-##Vim
+## Vim
 * Mappings
 	+ ii <- <Esc> 

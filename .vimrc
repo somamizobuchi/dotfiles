@@ -30,7 +30,8 @@ Plugin 'sainnhe/edge'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
-
+""" CtrlP """""
+let g:ctrlp_show_hidden=1
 """ Color Scheme """"
 set termguicolors
 set background=dark
