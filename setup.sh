@@ -1,7 +1,7 @@
 PROMPT="[SETUP]" 
 
 # initial prompt
-init (){
+link (){
 	echo "$PROMPT would like to symlink files from this folder to your root"
 	echo "$PROMPT Proceed? "
 	read resp
@@ -18,4 +18,20 @@ init (){
 	fi 
 }
 
-init
+installVundel (){
+	echo "$PROMPT would like to install Vundle"
+	echo "$PROMPT Proceed? "
+	read resp
+	if [ $resp == "y" ] || [ $resp =="Y" ] 
+	then 
+		git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+		done
+		echo "$PROMPT install complete"
+	else
+		echo "$PROMPT install failed"
+		return 1
+	fi 
+}
+
+link
+installVundle
