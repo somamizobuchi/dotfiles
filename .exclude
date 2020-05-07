@@ -1,5 +1,5 @@
 .exclude
-.git/
+.git
 .gitignore
-README.md
-setup.sh
+\bmd$
+\bsh$
