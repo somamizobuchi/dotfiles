@@ -1,5 +1,6 @@
 syntax on
 set number
+set ts=2
 let g:netrw_banner = 0
 let g:netrw_altv=1
 "===== Remap netrw window nav ====="
