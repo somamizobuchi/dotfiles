@@ -1,1 +1,7 @@
-## Dotfiles Yay
+# Dotfiles
+##Zsh
+Some themes
+vim mode 
+##Vim
+
+
