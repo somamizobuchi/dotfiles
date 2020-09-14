@@ -12,4 +12,4 @@ Some themes
 vim mode 
 ## Vim
 * Mappings
-	+ ii <- <Esc> 
+	+ ii <- \<Esc\> 
