@@ -12,7 +12,9 @@
       force: true
       glob: true
       path: .config/*
-      relink: true
+    ~/.vimrc:
+      force: true,
+      path: .vimrc
 
 - create:
     - ~/downloads
