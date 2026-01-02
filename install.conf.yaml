@@ -5,9 +5,9 @@
 - clean: ['~']
 
 - link:
-  ~/.zshrc:
-    force: true
-    path: .zshrc
+    ~/.zshrc:
+      force: true
+      path: .zshrc
 
 - create:
     - ~/downloads
