@@ -9,8 +9,9 @@
       force: true
       path: .zshrc
     ~/.config/:
+      force: true
       glob: true
-      path: config/*
+      path: .config/*
       relink: true
 
 - create:
