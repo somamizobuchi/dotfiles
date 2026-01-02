@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =1
+let g:netrw_dirhist_1='/Users/somamizobuchi/dev/reyer/runtime'
+let g:netrw_dirhist_0='/Users/somamizobuchi/dev/reyer'
+let g:netrw_dirhist_9='/Users/somamizobuchi/dev/reyer/launcher'
+let g:netrw_dirhist_8='/Users/somamizobuchi/dev/reyer'
+let g:netrw_dirhist_7='/Users/somamizobuchi/dev/reyer/runtime'
+let g:netrw_dirhist_6='/Users/somamizobuchi/dev/reyer'
+let g:netrw_dirhist_5='/Users/somamizobuchi/dev/matlab_toolbox'
+let g:netrw_dirhist_4='/Users/somamizobuchi/dev/msgpack_test'
+let g:netrw_dirhist_3='/Users/somamizobuchi/dev/msgpack_test/build'
+let g:netrw_dirhist_2='/Users/somamizobuchi/dev/msgpack_test'
