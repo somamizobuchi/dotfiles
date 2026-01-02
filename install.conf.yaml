@@ -8,6 +8,10 @@
     ~/.zshrc:
       force: true
       path: .zshrc
+    ~/.config/:
+      glob: true
+      path: config/*
+      relink: true
 
 - create:
     - ~/downloads
