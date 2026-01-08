@@ -15,6 +15,9 @@
     ~/.vimrc:
       force: true,
       path: .vimrc
+    ~/.tmux.conf:
+      force: true,
+      path: .tmux.conf
 
 - create:
     - ~/downloads

@@ -8,6 +8,28 @@ return {
         vim.lsp.enable("pyrefly")
         vim.lsp.enable("pyright")
         vim.lsp.enable("taplo")
+        vim.lsp.enable("marksman")
+
+        -- Disable placeholders
+        vim.lsp.config('clangd', {
+            cmd = {
+                'clangd',
+                '--function-arg-placeholders=0',
+            },
+        })
+
+        -- Disable NeoCMake snippets
+        vim.lsp.config('neocmake', {
+            capabilities = {
+                textDocument = {
+                    completion = {
+                        completionItem = {
+                            snippetSupport = false
+                        }
+                    }
+                }
+            }
+        })
 
         vim.lsp.config('lua_ls', {
             on_init = function(client)
